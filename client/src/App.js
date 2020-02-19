@@ -70,7 +70,7 @@ class App extends Component {
                   <Customer
                     key={c.id} /* map 을 사용할 경우 꼭 있어야 하는 props 이라서 넣었음 */
                     id={c.id}
-                    image={c.img}
+                    image={c.image}
                     name={c.name}
                     birthday={c.birthday}
                     gender={c.gender}
