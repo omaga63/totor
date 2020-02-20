@@ -1,7 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# upload
+/upload
+
 #database
 /database.json
+
+#temp file
+/client/src/App_Orig.css
 
 # dependencies
 /node_modules
