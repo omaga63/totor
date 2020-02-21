@@ -76,6 +76,7 @@ class App extends Component {
                 <TableCell>생년월일</TableCell>
                 <TableCell>성별</TableCell>
                 <TableCell>직업</TableCell>
+                <TableCell>설정</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -83,6 +84,7 @@ class App extends Component {
                 this.state.customers ? this.state.customers.map(c=>{
                   return(
                     <Customer
+                      stateRefresh={this.stateFresh}
                       key={c.id} /* map 을 사용할 경우 꼭 있어야 하는 props 이라서 넣었음 */
                       id={c.id}
                       image={c.image}
